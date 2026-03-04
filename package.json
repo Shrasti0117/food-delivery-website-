@@ -1,0 +1,13 @@
+{
+  "name": "food-delivery-fullstack",
+  "version": "1.0.0",
+  "description": "Full Stack Food Delivery Website with Admin Panel",
+  "scripts": {
+    "backend": "cd Backened && npm run server",
+    "frontend": "cd fontened/foodwebsite && npm run dev",
+    "admin": "cd admin && npm run dev",
+    "install-all": "cd Backened && npm install && cd ../fontened/foodwebsite && npm install && cd ../../admin && npm install"
+  },
+  "author": "",
+  "license": "ISC"
+}

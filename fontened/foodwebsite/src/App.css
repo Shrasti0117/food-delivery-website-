@@ -1,0 +1,17 @@
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 1050px) {
+  .app{
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .app{
+    width: 90%;
+  }
+}
